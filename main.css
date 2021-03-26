@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Della+Respira&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{background-color:black;}
+
+.top {
+color:darkorange;
+background-color: black;
+text-align: center; 
+font-family: 'Playfair Display', serif;
+}
+.Large{font-size: 50px;}
+.imgsize{width: 30%;}
+.imgsize2{width: 3%;}
+.imgsize3{width: 10%;}
+.imgsize4{width: 20%;}
+.center{text-align: center;}
+.textcolor{color:darkorange;}
+.text{font-size: 25px}
+.text2{font-size: 15px}
+.font{font-family:'Della Respira', serif;}
+.centerimg{justify-self: center;}
+.justeven{justify-content: space-evenly;}
+
+.container {
+    display: flex;
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.container a{
+    text-decoration: none;
+}
+
+.container a:link {
+    color: darkorange;
+  }
+
+.container a:hover {
+    color: darkorange;
+    background-color: gray;
+  }
+
+.container a:visited{
+color: darkorange;
+
+}
+
+.imgcont {
+    display: flex;
+    min-height: 20vh;
+    flex-direction: row;
+    justify-content: space-evenly;}
+
+    .box {
+    color: darkorange;
+    font-size: 20px;
+    font-family: 'Della Respira', serif;
+    text-align: center;
+    justify-content: space-evenly;}
+
+    .box2 {
+        color: red;
+        font-size: 25px;
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+        justify-content: space-evenly;}
